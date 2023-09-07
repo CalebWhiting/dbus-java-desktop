@@ -22,7 +22,7 @@ import java.util.*;
  * <a href="https://specifications.freedesktop.org/notification-spec/latest/">...</a>
  */
 @DBusInterfaceName("org.freedesktop.Notifications")
-interface Notifications extends DBusInterface
+public interface Notifications extends DBusInterface
 {
 
     String NAME = "org.freedesktop.Notifications";
